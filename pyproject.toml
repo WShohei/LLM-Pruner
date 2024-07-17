@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "llm-pruner"
+version = "0.1.0"
+description = ""
+authors = ["WShohei <komachi221118@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.3.1"
+transformers = "^4.42.4"
+datasets = "^2.20.0"
+sentencepiece = "^0.2.0"
+accelerate = "^0.32.1"
+wandb = "^0.17.4"
+ptflops = "^0.7.3"
+gradio = "^4.38.1"
+rouge-score = "^0.1.2"
+jsonlines = "^4.0.0"
+numexpr = "^2.10.1"
+sacrebleu = "^2.4.2"
+scikit-learn = "^1.5.1"
+sqlitedict = "^2.1.0"
+importlib-resources = "^6.4.0"
+pycountry = "^24.6.1"
+omegaconf = "^2.3.0"
+pytablewriter = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
